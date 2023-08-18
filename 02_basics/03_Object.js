@@ -26,5 +26,16 @@ const course = {
     price : "999"
 }
 
-const {courseName} = course
-console.log(courseName);
+// const {courseName} = course
+// console.log(courseName);
+
+
+const car = {
+    brand : "Tata",
+    year : 2019,
+    mileage : 18
+}
+
+const {brand,year,mileage} = car
+
+console.log(year);
