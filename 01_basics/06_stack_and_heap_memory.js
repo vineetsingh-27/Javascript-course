@@ -10,8 +10,8 @@ let myNewName = myName
 
 myNewName = "Aman"
 
-console.log(myName);
-console.log(myNewName);
+console.log(myName, 'old');
+console.log(myNewName, 'new');
 
 /**
  * here non-primitive datatype gives us reference of that value

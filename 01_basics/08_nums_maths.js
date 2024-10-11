@@ -1,5 +1,5 @@
 let num = 100000
-// console.log(num.toString())
+console.log(num.toString())
 
 let num1 = 129.04
 // console.log(num1.toPrecision(4))
@@ -16,4 +16,6 @@ let num2 = new Number(160)
 // console.log(Math.ceil(2.06)) 
 // console.log(Math.pow(2,3)) 
 // console.log(Math.sqrt(25))
-console.log(Math.floor(Math.random()*10));
+// console.log(Math.floor(Math.random()*10));
+
+// console.log(Math.floor(Math.random() * 10) + 1);

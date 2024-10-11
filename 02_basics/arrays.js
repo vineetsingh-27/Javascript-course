@@ -33,9 +33,9 @@ let car = ["Tata", "Mahindra","Volvo","Land Rover"]
 // console.log(arr);
 
 // slice() [create the copy of the array that you want and return it as new array]
-// const arr = [1,2,3,4,5,6]
-// console.log(arr.slice(0,3))
-// console.log(arr);
+const arr = [1,2,3,4,5,6]
+console.log(arr.slice(0,3))
+console.log(arr);
 
 const movie = ["A","B","C","D"]
 

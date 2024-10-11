@@ -25,6 +25,6 @@ const codingLanguage = [
     }
 ]
 
-codingLanguage.forEach( (item) =>{
+codingLanguage.forEach((item) =>{
     console.log(item.languageFileName);
 })

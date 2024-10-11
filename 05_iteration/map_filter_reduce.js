@@ -1,4 +1,4 @@
-const language = ["js","java","python","swift"]
+const language = ["js", "java", "python", "swift"];
 
 // const value = language.forEach( (item) =>{
 //     console.log(item);
@@ -10,16 +10,15 @@ const language = ["js","java","python","swift"]
 // ++++++ filter ++++++++++++
 // if we specify scope '{}' then we have to use return keyword
 // it checks for true or false then
-// const values = language.filter( (lng) =>{
+// const values = language.filter((lng) => {
 //     return lng
 // })
-
 
 // const values = language.filter( (lng) => (lng) )
 
 // console.log(values);
 
-// Using forEach loop to return 
+// Using forEach loop to return
 // const myNums = [1,2,3,4,5,6,7,8,9,10]
 // const newNum = []
 // myNums.forEach( (num) =>{
@@ -29,7 +28,6 @@ const language = ["js","java","python","swift"]
 // })
 
 // console.log(newNum);
-
 
 // const books = [
 //     { title: 'Book One', genre: 'Fiction', publish: 1981, edition: 2004 },
@@ -48,7 +46,6 @@ const language = ["js","java","python","swift"]
 //   })
 
 //   console.log(book);
-
 
 //  +++++++++++++++ map +++++++++++++++
 // operation is perform on map
@@ -78,18 +75,19 @@ const language = ["js","java","python","swift"]
 
 const shoppingCart = [
     {
-        itemName : "js",
-        price : 999
+        itemName: "js",
+        price: 999,
     },
     {
-        itemName : "py",
-        price : 2999
+        itemName: "py",
+        price: 2999,
     },
     {
-        itemName : "data science",
-        price : 5999
-    }
-]
+        itemName: "data science",
+        price: 5999,
+    },
+];
 
-const totalValue = shoppingCart.reduce( (acc, item) => (acc + item.price),0)
-console.log(totalValue);
+const totalValue = shoppingCart.reduce((acc, item) => (acc + item.price), 0);
+
+// console.log(totalValue);

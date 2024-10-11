@@ -32,7 +32,7 @@ name = "Akash"
 // let name = "Prafull"
 
 //Must be declared before use
-let salary
+let salary;
 console.log(salary);
 
 console.log(name);
