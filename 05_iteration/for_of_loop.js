@@ -13,9 +13,9 @@ const person = {
     age: 24
 }
 
-// for (const per of person) {
-//     console.log(per);
-// }
+for (const per of person) {
+    // console.log(per);
+}
 
 for (const per in person) {
     // console.log(person[per]);

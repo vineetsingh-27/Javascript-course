@@ -1,5 +1,7 @@
 let num = 100000
-console.log(num.toString())
+let new_num = num.toString();
+// console.log(typeof(new_num));
+
 
 let num1 = 129.04
 // console.log(num1.toPrecision(4))

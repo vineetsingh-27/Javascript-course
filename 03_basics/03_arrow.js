@@ -11,12 +11,13 @@
 // user.username = "aman"
 // user.greet()
 
-// this doesn't work in function
+//? this doesn't work in function
+// let username = "Aman"
 
-// function chai() {
-//     let username = "vineet"
-//     console.log(this.username);
-// }
+function chai() {
+    username = "vineet"
+    console.log(this.username);
+}
 
 // let chai = function(){
 //     let username = "vineet"
@@ -28,9 +29,9 @@
 //     console.log(this.username);
 // }
 
-// chai()
+chai()
 
-//+++++++++++++++++++++++++++++++++ Arrow function +++++++++++++++++++++++++++++++++++
+//?+++++++++++++++++++++++++++++++++ Arrow function +++++++++++++++++++++++++++++++++++
 /**
  * Syntax for arrow function
  * () =>{
@@ -42,8 +43,8 @@
 // }
 
 /**
- * if we use '()' then don't have to use return keyword
+ * ?if we use '()' then don't have to use return keyword
  */
 let addTwoNum = (num1, num2) => (num1 + num2)
 
-console.log(addTwoNum(5,5))
+// console.log(addTwoNum(5,5))

@@ -7,7 +7,7 @@ const language = ["js", "java", "python", "swift"];
 
 // console.log(value);
 
-// ++++++ filter ++++++++++++
+//! ++++++ filter ++++++++++++
 // if we specify scope '{}' then we have to use return keyword
 // it checks for true or false then
 // const values = language.filter((lng) => {
@@ -47,7 +47,7 @@ const language = ["js", "java", "python", "swift"];
 
 //   console.log(book);
 
-//  +++++++++++++++ map +++++++++++++++
+//!  +++++++++++++++ map +++++++++++++++
 // operation is perform on map
 
 // const myNums = [1,2,3,4,5,6,7,8,9,10]
@@ -64,7 +64,7 @@ const language = ["js", "java", "python", "swift"];
 
 // console.log(myNewNums);
 
-// ++++++++++++ reduce ++++++++++++
+//! ++++++++++++ reduce ++++++++++++
 
 // const num = [1,2,3,4]
 // const result = num.reduce( (acc, currval) =>{

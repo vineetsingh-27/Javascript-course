@@ -6,11 +6,11 @@ const userEmail = []
 //     console.log("Don't have an email");
 // }
 
-// falsy values
-// false, 0, -0, BigInt, 0n, "", null, undefined, NaN
+//! falsy values
+//? false, 0, -0, BigInt, 0n, "", null, undefined, NaN
 
-//truthy values
-// "0", 'false', " ", [], {}, function(){}
+//!truthy values
+//? "0", 'false', " ", [], {}, function(){}
 
 const emptyObj = {}
 

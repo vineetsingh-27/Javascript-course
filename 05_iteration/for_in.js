@@ -5,7 +5,7 @@
 //     swift : "swift"
 // }
 
-// //mostly will use it for object
+//! mostly will use it for object
 // for (const item in language) {
 //     console.log(language[item]);
 // }
