@@ -1,8 +1,7 @@
-let name = "vineet singh";
-let new_name = "";
+let str = "i.like.this.program.very.much";
+let str2 = "";
+for(let i = str.length-1;i>=0;i--){
+    str2 += str.charAt(i);
+}
 
-// for(let i = name.length-1;i>=0;i--){
-//     new_name += name.charAt(i).toLowerCase()
-// }
-
-console.log(new_name);
+console.log(str2);

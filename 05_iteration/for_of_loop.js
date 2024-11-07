@@ -2,7 +2,7 @@
 
 const car = ["BMW", "TATA", "AUDI"]
 
-//mostly will use it for arrays
+//! mostly will use it for arrays
 for (const i of car) {
     // console.log(i);
 }

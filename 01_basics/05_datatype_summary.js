@@ -40,7 +40,8 @@ console.log(typeof myFunction);
 
 
 
-// Return type of javascript variables
+//! Return type of javascript variables
+
 /** 1) Primitive Datatypes
        Number => number
        String  => string

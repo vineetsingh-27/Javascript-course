@@ -1,10 +1,10 @@
 // const promiseOne = new Promise(function(resolve,reject){
 //     setTimeout(() => {
 
-//?      first async task will complete
+// ?      first async task will complete
 //         console.log('async task complete');
 
-//?      then resolve() will execute -> promise is consumed
+// ?      then resolve() will execute -> promise is consumed
 //         resolve()
 //     }, 1000);
 // })
@@ -58,26 +58,26 @@
 // }).finally(() => console.log('error resolved or reject'))
 
 //? promiseFive
-const promiseFive = new Promise((resolve,reject)=>{
-    setTimeout(()=>{
-        let ans = true
-        if(ans){
-            resolve({username: "Vineet",email:"vineet@gmail.com"});
-        }else{
-           reject("Error: Something went wrong")
-        }
-    },1000)
-})
+// const promiseFive = new Promise((resolve,reject)=>{
+//     setTimeout(()=>{
+//         let ans = true
+//         if(ans){
+//             resolve({username: "Vineet",email:"vineet@gmail.com"});
+//         }else{
+//            reject("Error: Something went wrong")
+//         }
+//     },1000)
+// })
 
-consumeFive = async (user) =>{
-    try {
-        const data = await promiseFive
-        const person = data.username
-        console.log(person);
-    } catch (error) {
-        console.log("Js error", error);
-    }
-}
+// consumeFive = async (user) =>{
+//     try {
+//         const data = await promiseFive
+//         const person = data.username
+//         console.log(person);
+//     } catch (error) {
+//         console.log("Js error", error);
+//     }
+// }
 
 // consumeFive()
 
@@ -104,4 +104,4 @@ const fetchUserPost = () =>{
     })
 }
 
-fetchUserPost()
+// fetchUserPost()
